@@ -2,7 +2,6 @@ import { Button } from "@mui/material";
 
 function Sort(props) {
   const { handleSort } = props;
-
   const clickSort = () => {
     handleSort();
   };
